@@ -7,9 +7,12 @@ body {
 
 .Main_header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: cyan;
+    background: white;
     width: 100%;
     position: relative;
+    border-bottom: 3px solid;
+    border-color: lightgrey;
+
 }
 
 #nameHeader {
@@ -23,19 +26,20 @@ body {
 }
 
 .navBar {
-    height: 100%;
-    width: 20%;
+    height: 58px;
+    width: auto;
     position: absolute;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     right: 0;
-    margin: 0 319px 0 0;
-
+    margin: 0 20% 0 0;
+    top: 0;
+    background: white;
+    color: slategray;
 }
 
 #index {
-    background: seagreen;
-    color: white;
+    border-right: 2px solid lightgrey;
 }
 
 .main_body {
