@@ -1,4 +1,43 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: slategray;
+}
 
+.Main_header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: cyan;
+    width: 100%;
+    position: fixed relative;
+}
+
+#nameHeader {
+    width: 250px;
+    height: 100%;
+    color: white;
+    background: seagreen;
+    padding: 20px;
+    text-align: center;
+}
+
+#navBar {
+    position: relative;
+    right: 0;
+
+}
+
+.main_body {
+    background: lightslategray;
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+h1 {
+    margin: 0 auto;
+
+}
 
 img {
     height: 200px;
