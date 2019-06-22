@@ -115,26 +115,38 @@ footer {
     color: black
 }
 
-button {
-    background: blue;
-    color: white;
-    padding: 10px;
-
+.work {
+    margin: 10px 10px 10px 0;
+    background: rgb(211, 233, 255);
 }
 
-#portfolioPic {
-    margin: 20px 0px 0px 20px;
-
+ul {
+    margin: 0px;
+    padding: 0;
+    line-height: 30px;
+    color: black;
 }
 
 .contactHead {
-    margin-bottom: 20px
+    margin: 20px;
+    padding: 0;
 }
 
-label,
-input[type=text],
+input[type=name],
 input[type=email],
 textarea {
     display: block;
-    width: 100%
+    width: 100%;
+}
+
+textarea {
+    height: 300px;
+}
+
+input[type=Submit] {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: blue;
+    color: white;
+    padding: 10px;
 }
