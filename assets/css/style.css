@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background: url(../../../Eclipse/DSC_0288.jpg);
-    background-size: 1300px;
+    background-size: 2000px;
 }
 
 .container {
@@ -115,8 +115,6 @@ nav a:first-child {
     margin-right: 25px;
 }
 
-
-
 /* footer */
 
 footer {
@@ -130,3 +128,22 @@ footer {
     text-align: center;
 }
 
+/* Portfolio */
+
+.work {
+    width: 274px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+}
